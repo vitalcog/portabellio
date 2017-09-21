@@ -1,0 +1,135 @@
+body {
+  background-image: url('./images/bronze_gears_bg_2.jpg');
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#whole_shibang {
+  background-color: #e7eaed;
+  border-left: 20px solid black;
+  border-right: 20px solid black;
+  margin: 0 auto;
+  width: 65%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  font-size: 1.2em;
+  font-weight: bold;
+  list-style: none;
+}
+
+.link {
+  color: #c70032;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-shadow: 0 0 12px #3f3f3f;
+}
+
+.link:active {
+  color: #696969;
+}
+
+article {
+  height: 350px;
+  padding-left: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#navSpan {
+  background-color: #f5f5f5;
+  height: 40px;
+}
+
+span {
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  height: 200px;
+  width: 100%;
+}
+
+#wowGIF {
+  box-shadow: 0 0 25px #3f3f3f;
+  margin-top: 15px;
+  width: 300px;
+}
+
+#projectImage {
+  box-shadow: 0 0 30px #3f3f3f;
+  width: 400px;
+  margin: 0 10px;
+}
+
+#hubLink {
+  text-align: center;
+  font-size: 1em;
+  width: 160px;
+}
+
+#projectDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+
+.projectText {
+  text-align: center;
+  font-size: 16px;
+}
+
+.centeredText {
+  text-align: center;
+}
+
+.contactDiv {
+  width: 75%;
+  text-align: center;
+}
+
+button {
+  border-radius: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #696969;
+  outline: none;
+  color: #e7eaed;
+  height: 60px;
+  width: 50px;
+  text-align: justify;
+}
