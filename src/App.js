@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div id="whole_shibang">
         <span id="navSpan">
-          <Link className="link" to="/home">Home</Link>
+          <Link className="link" to="/">Home</Link>
           <Link className="link" to="/projects">Projects</Link>
           <Link className="link" to="/resume">Resume</Link>
           <Link className="link" to="/contact">Contact</Link>
@@ -20,7 +20,7 @@ class App extends Component {
           <Route path="/projects" component={Projects} />
           <Route path="/resume" component={Resume} />
           <Route path="/contact" component={Contact} />
-          <Route path="/home" component={Home} />
+          <Route path="/" component={Home} />
         </Switch>
         <footer>
           <img alt="cute little footer" src={require('./images/cogwheels_wide_pic.jpg')} />
