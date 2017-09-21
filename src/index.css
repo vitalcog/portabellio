@@ -27,16 +27,6 @@ p {
   font-weight: bold;
 }
 
-ul {
-  text-align: left;
-}
-
-li {
-  font-size: 1.2em;
-  font-weight: bold;
-  list-style: none;
-}
-
 .link {
   color: #c70032;
   text-decoration: none;
@@ -122,7 +112,38 @@ img {
   text-align: center;
 }
 
-button {
+.selector {
+  margin-bottom: 70px;
+  color: #c70032;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.selector:hover {
+  cursor: pointer;
+  text-shadow: 0 0 12px #3f3f3f;
+}
+
+.selector:active {
+  color: #696969;
+}
+
+a {
+  color: #c70032;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-shadow: 0 0 12px #3f3f3f;
+}
+
+a:active {
+  color: #696969;
+}
+
+/*button {
   border-radius: 10px;
   font-size: 1.5em;
   font-weight: bold;
@@ -132,4 +153,4 @@ button {
   height: 60px;
   width: 50px;
   text-align: justify;
-}
+}*/

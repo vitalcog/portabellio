@@ -38,9 +38,9 @@ class Projects extends Component {
       <div>
       <p className="centeredText">Check out all these awesome things that I've done!</p>
       <span>
-        <button onClick= {() => this.lowerState()} > &#60; </button>
+        <div className="selector" onClick= {() => this.lowerState()} > &#60; </div>
         <Project select={this.state.select}/>
-        <button onClick= {() => this.raiseState()}> &#62; </button>
+        <div className="selector" onClick= {() => this.raiseState()}> &#62; </div>
       </span>
     </div>
     );

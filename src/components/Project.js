@@ -47,7 +47,7 @@ class Project extends Component {
           <p className="projectText">
             {project[0].description}
           </p>
-          <button id="hubLink">check it out on GitHub!</button>
+          <a id="hubLink" href={project[0].link}>check it out on GitHub!</a>
         </div>
       );
     }
@@ -65,7 +65,7 @@ class Project extends Component {
           <p className="projectText">
             {project[1].description}
           </p>
-          <button id="hubLink">check it out on GitHub!</button>
+          <a id="hubLink" href={project[1].link}>check it out on GitHub!</a>
         </div>
       );
     }
@@ -83,7 +83,7 @@ class Project extends Component {
           <p className="projectText">
             {project[2].description}
           </p>
-          <button id="hubLink">check it out on GitHub!</button>
+          <a id="hubLink" href={project[2].link}>check it out on GitHub!</a>
         </div>
       );
     }
@@ -101,7 +101,7 @@ class Project extends Component {
           <p className="projectText">
             {project[3].description}
           </p>
-          <button id="hubLink">check it out on GitHub!</button>
+          <a id="hubLink" href={project[3].link}>check it out on GitHub!</a>
         </div>
       );
     }
