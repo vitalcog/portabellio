@@ -32,79 +32,24 @@ class Project extends Component {
   }
   render() {
     const project = this.state.project;
+    const index = this.props.select;
 
-    if (this.props.select === 1) {
       return(
         <div id="projectDiv">
           <img
             id="projectImage"
-            alt="rube goldberg machine with red white gray color scheme"
-            src={project[0].pic}
+            alt="that roughly relates to the project description"
+            src={project[index].pic}
           />
           <p className="projectText">
-            {project[0].title}
+            {project[index].title}
           </p>
           <p className="projectText">
-            {project[0].description}
+            {project[index].description}
           </p>
-          <a id="hubLink" href={project[0].link} target="_blank">check it out on GitHub!</a>
+          <a id="hubLink" href={project[index].link} target="_blank">check it out on GitHub!</a>
         </div>
       );
-    }
-    else if (this.props.select === 2) {
-      return(
-        <div id="projectDiv">
-          <img
-            id="projectImage"
-            alt="rube goldberg machine with red white gray color scheme"
-            src={project[1].pic}
-          />
-          <p className="projectText">
-            {project[1].title}
-          </p>
-          <p className="projectText">
-            {project[1].description}
-          </p>
-          <a id="hubLink" href={project[1].link} target="_blank">check it out on GitHub!</a>
-        </div>
-      );
-    }
-    else if (this.props.select === 3) {
-      return(
-        <div id="projectDiv">
-          <img
-            id="projectImage"
-            alt="rube goldberg machine with red white gray color scheme"
-            src={project[2].pic}
-          />
-          <p className="projectText">
-            {project[2].title}
-          </p>
-          <p className="projectText">
-            {project[2].description}
-          </p>
-          <a id="hubLink" href={project[2].link} target="_blank">check it out on GitHub!</a>
-        </div>
-      );
-    }
-    else if (this.props.select === 4) {
-      return(
-        <div id="projectDiv">
-          <img
-            id="projectImage"
-            alt="rube goldberg machine with red white gray color scheme"
-            src={project[3].pic}
-          />
-          <p className="projectText">
-            {project[3].title}
-          </p>
-          <p className="projectText">
-            {project[3].description}
-          </p>
-          <a id="hubLink" href={project[3].link} target="_blank">check it out on GitHub!</a>
-        </div>
-      );
-    }
   }
 }
 

@@ -38,7 +38,7 @@ class StarBar extends Component {
 
     const flexSpan = {
       display: 'flex',
-      alignItems: 'baseLine',
+      alignItems: 'center',
       height: '55px',
       width: '330px',
       backgroundColor: 'lightgray',

@@ -82,7 +82,8 @@ img {
 #projectImage {
   box-shadow: 0 0 30px #3f3f3f;
   width: 400px;
-  margin: 0 10px;
+  height: 200px;
+  margin: none;
 }
 
 #hubLink {
@@ -95,16 +96,21 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 500px;
+  justify-content: space-between;
+  height: 380px;
+  width: 425px;
 }
 
 .projectText {
   text-align: center;
   font-size: 16px;
+  margin: 0;
 }
 
 .centeredText {
   text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 .contactDiv {
@@ -143,14 +149,36 @@ a:active {
   color: #696969;
 }
 
-/*button {
-  border-radius: 10px;
-  font-size: 1.5em;
-  font-weight: bold;
-  background-color: #696969;
-  outline: none;
-  color: #e7eaed;
+#resumeLink {
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+
+#resumeDiv {
+  height: 450px;
+}
+
+#next {
+  margin-bottom: none;
+  font-size: 4em;
+}
+
+#inspectionPic {
+  width: 400px;
+  margin-bottom: none;
+}
+
+#specialCaseText {
+  margin-top: 45px;
+}
+
+.spacer {
   height: 60px;
-  width: 50px;
-  text-align: justify;
-}*/
+}
+
+.flexDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

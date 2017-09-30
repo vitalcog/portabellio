@@ -5,7 +5,7 @@ class RatingNumber extends Component {
 
     const nobodyCares = {
       flexGrow: '1',
-      fontSize: '2.2em',
+      fontSize: '60px',
       fontWeight: 'bold',
       paddingLeft: '5px',
       color: 'gray',
@@ -13,7 +13,7 @@ class RatingNumber extends Component {
 
     const onebodyCares = {
       flexGrow: '1',
-      fontSize: '2.2em',
+      fontSize: '60px',
       fontWeight: 'bold',
       paddingLeft: '5px',
       color: 'red',
@@ -21,7 +21,7 @@ class RatingNumber extends Component {
 
     const somebodyCares = {
       flexGrow: '1',
-      fontSize: '2.2em',
+      fontSize: '60px',
       fontWeight: 'bold',
       paddingLeft: '5px',
       color: 'orange',
@@ -29,7 +29,7 @@ class RatingNumber extends Component {
 
     const allottaBodyCares = {
       flexGrow: '1',
-      fontSize: '2.2em',
+      fontSize: '60px',
       fontWeight: 'bold',
       paddingLeft: '5px',
       color: 'yellow',
@@ -37,7 +37,7 @@ class RatingNumber extends Component {
 
     const EVERYBODYcares = {
       flexGrow: '1',
-      fontSize: '2.2em',
+      fontSize: '60px',
       fontWeight: 'bold',
       paddingLeft: '5px',
       color: 'green',
