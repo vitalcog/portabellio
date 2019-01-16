@@ -28,7 +28,7 @@ class ResumeSnips extends Component {
           <p className="centeredText">So go ahead! Snoop around.</p>
           <img
             id="inspectionPic"
-            src="https://media.giphy.com/media/3o7ZeGFFAZUc79Dsxq/giphy.gif"
+            src="https://media.giphy.com/media/xGdvlOVSWaDvi/giphy.gif"
           />
         </div>
       );
