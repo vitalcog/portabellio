@@ -42,7 +42,7 @@ class ResumeSnips extends Component {
             But would you be a good match for me?
           </p>
           <p className="centeredText">
-            I'm looking for an environment were I can not only be challenged daily and forced to continue to grow and further develop my skill set but also be provided with an atmosphere that is helpful and nurturing for a fledgling web developer such as myself.
+            I'm looking for an environment where I can not only be challenged daily and forced to continue to grow and further develop my skill set but also be provided with an atmosphere that is helpful and nurturing for a fledgling web developer such as myself.
           </p>
         </div>
       );
